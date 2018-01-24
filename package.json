@@ -1,0 +1,15 @@
+{
+  "name": "cimplex-decoder",
+  "version": "1.0.0",
+  "description": "A decoder library for cimplex conform services",
+  "license": "Apache-2.0",
+  "author": "German Research Center for Artificial Intelligence",
+  "scripts": {
+    "build": "browserify -s GleamViz lib/gleamviz.js > dist/gleamviz.js",
+    "watch": "watchify -s GleamViz lib/gleamviz.js -o  dist/gleamviz.js -dv"
+  },
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "watchify": "^3.9.0"
+  }
+}
