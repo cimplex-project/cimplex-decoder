@@ -10,6 +10,6 @@
   },
   "dependencies": {
     "browserify": "^13.1.1",
-    "watchify": "^3.9.0"
+    "watchify": "^3.11.0"
   }
 }
